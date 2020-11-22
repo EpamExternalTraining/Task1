@@ -53,5 +53,32 @@
             <exception cref="T:System.ArgumentNullException"></exception>
             <exception cref="T:System.IO.FileNotFoundException"></exception>
         </member>
+        <member name="T:ServiceLibrary.Services.MainService">
+            <summary>
+            Class that has main functionality for the Task
+            </summary>
+        </member>
+        <member name="M:ServiceLibrary.Services.MainService.CloneAndSortByCaloriesAmount(System.Collections.Generic.List{DataLibrary.Models.BakeryProduct})">
+            <summary>
+            Clones and Sorts bakery products by Calories Ammount
+            </summary>
+            <param name="products">List of bakery products</param>
+            <returns>cloned and sorted list of bakery products</returns>
+        </member>
+        <member name="M:ServiceLibrary.Services.MainService.CopyAndSortByPriceAmount(System.Collections.Generic.List{DataLibrary.Models.BakeryProduct})">
+            <summary>
+            Copies and Sorts bakery products by price
+            </summary>
+            <param name="products">List of bakery products</param>
+            <returns>copied and sorted list of bakery products</returns>
+        </member>
+        <member name="M:ServiceLibrary.Services.MainService.TakeWhereProductsIsEqualTo(System.Collections.Generic.List{DataLibrary.Models.BakeryProduct},DataLibrary.Models.BakeryProduct)">
+            <summary>
+            Takes products from list which are equal to product with Price and Calories
+            </summary>
+            <param name="products">list where to take</param>
+            <param name="product">comparable product</param>
+            <returns>resulting list of products</returns>
+        </member>
     </members>
 </doc>

@@ -8,7 +8,6 @@ E:\Projects\EpamExternalTraining\Task1\Task1\DataLibrary\obj\Debug\netcoreapp3.1
 E:\Projects\EpamExternalTraining\Task1\Task1\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.csproj.CoreCompileInputs.cache
 E:\Projects\EpamExternalTraining\Task1\Task1\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.dll
 E:\Projects\EpamExternalTraining\Task1\Task1\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.pdb
-E:\Projects\EpamExternalTraining\Task1\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.csprojAssemblyReference.cache
 E:\Projects\EpamExternalTraining\Task1\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.AssemblyInfoInputs.cache
 E:\Projects\EpamExternalTraining\Task1\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.AssemblyInfo.cs
 E:\Projects\EpamExternalTraining\Task1\DataLibrary\obj\Debug\netcoreapp3.1\DataLibrary.csproj.CoreCompileInputs.cache

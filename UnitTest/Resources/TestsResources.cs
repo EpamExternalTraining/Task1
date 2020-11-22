@@ -4,9 +4,8 @@ using ServiceLibrary.Services;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Text;
 
-namespace UnitTest
+namespace UnitTest.Resources
 {
     public static class TestsResources
     {

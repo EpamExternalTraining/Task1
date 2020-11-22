@@ -80,7 +80,7 @@
             <param name="product">comparable product</param>
             <returns>resulting list of products</returns>
         </member>
-        <member name="M:ServiceLibrary.Services.MainService.TakeWhereProductsWeightIsHigherThan(System.Collections.Generic.List{DataLibrary.Models.BakeryProduct},DataLibrary.Models.Ingredient,System.Double)">
+        <member name="M:ServiceLibrary.Services.MainService.TakeWhereProductsWeightIsHigherThan(System.Collections.Generic.List{DataLibrary.Models.BakeryProduct},System.String,System.Double)">
             <summary>
             Takes products from list where comparable ingredient weight is higher than
             </summary>

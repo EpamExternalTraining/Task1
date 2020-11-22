@@ -5,14 +5,15 @@ using ServiceLibrary.Services;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using UnitTest.Resources;
 
-namespace UnitTest
+namespace UnitTest.Tests
 {
     [TestClass]
     public class FileWorkerTests
     {
 
-        #region Fields
+        #region Resources
 
         private static IEnumerable<object[]> _correctProducts => TestsResources.CorrectProducts;
         private static string _filePath => TestsResources.FilePath;

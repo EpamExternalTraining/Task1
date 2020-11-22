@@ -9,7 +9,7 @@ namespace ServiceLibrary.Services
     /// <summary>
     /// Class that has main functionality for the Task
     /// </summary>
-    public class MainService
+    public static class MainService
     {
 
         #region Methods
@@ -19,7 +19,7 @@ namespace ServiceLibrary.Services
         /// </summary>
         /// <param name="products">List of bakery products</param>
         /// <returns>cloned and sorted list of bakery products</returns>
-        public List<BakeryProduct> CloneAndSortByCaloriesAmount(List<BakeryProduct> products)
+        public static List<BakeryProduct> CloneAndSortByCaloriesAmount(List<BakeryProduct> products)
         {
             List<BakeryProduct> productsRes = new List<BakeryProduct>();
 
@@ -49,7 +49,7 @@ namespace ServiceLibrary.Services
         /// </summary>
         /// <param name="products">List of bakery products</param>
         /// <returns>copied and sorted list of bakery products</returns>
-        public List<BakeryProduct> CopyAndSortByPriceAmount(List<BakeryProduct> products)
+        public static List<BakeryProduct> CopyAndSortByPriceAmount(List<BakeryProduct> products)
         {
             List<BakeryProduct> productsRes = new List<BakeryProduct>();
 
@@ -80,7 +80,7 @@ namespace ServiceLibrary.Services
         /// <param name="products">list where to take</param>
         /// <param name="product">comparable product</param>
         /// <returns>resulting list of products</returns>
-        public List<BakeryProduct> TakeWhereProductsIsEqualTo(List<BakeryProduct> products, BakeryProduct product)
+        public static List<BakeryProduct> TakeWhereProductsIsEqualTo(List<BakeryProduct> products, BakeryProduct product)
         {
             return products
                 .Where(a =>
@@ -96,10 +96,10 @@ namespace ServiceLibrary.Services
         /// <param name="ingredient">comparable ingredient</param>
         /// <param name="weight">comparable weight</param>
         /// <returns>resulting list of products</returns>
-        public List<BakeryProduct> TakeWhereProductsWeightIsHigherThan(List<BakeryProduct> products, Ingredient ingredient, double weight)
+        public static List<BakeryProduct> TakeWhereProductsWeightIsHigherThan(List<BakeryProduct> products, string ingredientName, double weight)
         {
             return products.Where(prd =>
-                                    prd.Ingredients.Where(ingr => ingr == ingredient).Sum(ingr => ingr.Weight) > weight)
+                                    prd.Ingredients.Where(ingr => ingr.Name == ingredientName).Sum(ingr => ingr.Weight) > weight)
                            .ToList();
         }
 
@@ -109,7 +109,7 @@ namespace ServiceLibrary.Services
         /// <param name="products">list where to take</param>
         /// <param name="count">comparable count</param>
         /// <returns>resulting list of products</returns>
-        public List<BakeryProduct> TakeWhereIngredientCountIsHigherThan(List<BakeryProduct> products, int count)
+        public static List<BakeryProduct> TakeWhereIngredientCountIsHigherThan(List<BakeryProduct> products, int count)
         {
             return products.Where(prd => prd.Ingredients.Count() > count).ToList();
         }

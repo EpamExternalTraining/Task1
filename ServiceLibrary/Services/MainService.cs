@@ -1,9 +1,7 @@
 ﻿using DataLibrary.Models;
 using ServiceLibrary.Utils.Comparers;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace ServiceLibrary.Services
 {
@@ -98,10 +96,10 @@ namespace ServiceLibrary.Services
         /// <param name="ingredient">comparable ingredient</param>
         /// <param name="weight">comparable weight</param>
         /// <returns>resulting list of products</returns>
-        public List<BakeryProduct> TakeWhereProductsWeightIsHigherThan(List<BakeryProduct> products,Ingredient ingredient, double weight)
+        public List<BakeryProduct> TakeWhereProductsWeightIsHigherThan(List<BakeryProduct> products, Ingredient ingredient, double weight)
         {
-            return products.Where(prd => 
-                                    prd.Ingredients.Where(ingr=>ingr==ingredient).Sum(ingr=>ingr.Weight)>weight)
+            return products.Where(prd =>
+                                    prd.Ingredients.Where(ingr => ingr == ingredient).Sum(ingr => ingr.Weight) > weight)
                            .ToList();
         }
 

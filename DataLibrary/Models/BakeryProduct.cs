@@ -21,7 +21,7 @@ namespace DataLibrary.Models
         /// Markup of the BakeryProduct; 
         /// Indicated as a percentage
         /// </summary>
-        public decimal Markup { get; set; }
+        public decimal Markup { get; protected set; }
 
         /// <summary>
         /// Name of the BakeryProduct

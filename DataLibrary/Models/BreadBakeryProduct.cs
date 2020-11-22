@@ -12,15 +12,14 @@
         /// <summary>
         /// Constructor
         /// </summary>
-        public BreadBakeryProduct(decimal markup = 50) : base() => Markup = markup;
+        public BreadBakeryProduct() : base() => Markup = 50;
 
         /// <summary>
         /// Constructor
         /// </summary>
         /// <param name="name">Name of the BreadBakeryProduct</param>
-        /// <param name="markup">Markup of the BreadBakeryProduct</param>
         /// <param name="ingredients">Ingredients which are requiered to bake the BreadBakeryProduct</param>
-        public BreadBakeryProduct(string name, decimal markup = 50, params Ingredient[] ingredients) : base(name, markup, ingredients) { }
+        public BreadBakeryProduct(string name, params Ingredient[] ingredients) : base(name, 50, ingredients) { }
 
         #endregion
 

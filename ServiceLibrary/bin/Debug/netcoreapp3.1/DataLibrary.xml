@@ -74,17 +74,16 @@
             Class that describes BreadBakeryProduct
             </summary>
         </member>
-        <member name="M:DataLibrary.Models.BreadBakeryProduct.#ctor(System.Decimal)">
+        <member name="M:DataLibrary.Models.BreadBakeryProduct.#ctor">
             <summary>
             Constructor
             </summary>
         </member>
-        <member name="M:DataLibrary.Models.BreadBakeryProduct.#ctor(System.String,System.Decimal,DataLibrary.Models.Ingredient[])">
+        <member name="M:DataLibrary.Models.BreadBakeryProduct.#ctor(System.String,DataLibrary.Models.Ingredient[])">
             <summary>
             Constructor
             </summary>
             <param name="name">Name of the BreadBakeryProduct</param>
-            <param name="markup">Markup of the BreadBakeryProduct</param>
             <param name="ingredients">Ingredients which are requiered to bake the BreadBakeryProduct</param>
         </member>
         <member name="T:DataLibrary.Models.Ingredient">
@@ -150,17 +149,16 @@
             Class that describes WheatProduct
             </summary>
         </member>
-        <member name="M:DataLibrary.Models.LoafBakeryProduct.#ctor(System.Decimal)">
+        <member name="M:DataLibrary.Models.LoafBakeryProduct.#ctor">
             <summary>
             Constructor
             </summary>
         </member>
-        <member name="M:DataLibrary.Models.LoafBakeryProduct.#ctor(System.String,System.Decimal,DataLibrary.Models.Ingredient[])">
+        <member name="M:DataLibrary.Models.LoafBakeryProduct.#ctor(System.String,DataLibrary.Models.Ingredient[])">
             <summary>
             Constructor
             </summary>
             <param name="name">Name of the LoafBakeryProduct</param>
-            <param name="markup">Markup of the LoafBakeryProduct</param>
             <param name="ingredients">Ingredients which are requiered to bake the LoafBakeryProduct</param>
         </member>
     </members>

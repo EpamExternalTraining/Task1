@@ -96,3 +96,6 @@ E:\Projects\EpamExternalTraining\Task1\UnitTest\obj\Debug\netcoreapp3.1\UnitTest
 E:\Projects\EpamExternalTraining\Task1\UnitTest\obj\Debug\netcoreapp3.1\UnitTest.dll
 E:\Projects\EpamExternalTraining\Task1\UnitTest\obj\Debug\netcoreapp3.1\UnitTest.pdb
 E:\Projects\EpamExternalTraining\Task1\UnitTest\obj\Debug\netcoreapp3.1\UnitTest.genruntimeconfig.cache
+E:\Projects\EpamExternalTraining\Task1\UnitTest\bin\Debug\netcoreapp3.1\ServiceLibrary.dll
+E:\Projects\EpamExternalTraining\Task1\UnitTest\bin\Debug\netcoreapp3.1\ServiceLibrary.pdb
+E:\Projects\EpamExternalTraining\Task1\UnitTest\bin\Debug\netcoreapp3.1\ServiceLibrary.xml

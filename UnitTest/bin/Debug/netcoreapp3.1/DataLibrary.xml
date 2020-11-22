@@ -69,9 +69,26 @@
             </summary>
             <returns>A string that represents the current BakeryProduct.</returns>
         </member>
+        <member name="T:DataLibrary.Models.BreadBakeryProduct">
+            <summary>
+            Class that describes BreadBakeryProduct
+            </summary>
+        </member>
+        <member name="M:DataLibrary.Models.BreadBakeryProduct.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:DataLibrary.Models.BreadBakeryProduct.#ctor(System.String,DataLibrary.Models.Ingredient[])">
+            <summary>
+            Constructor
+            </summary>
+            <param name="name">Name of the BreadBakeryProduct</param>
+            <param name="ingredients">Ingredients which are requiered to bake the BreadBakeryProduct</param>
+        </member>
         <member name="T:DataLibrary.Models.Ingredient">
             <summary>
-            Abstract class that describes Ingredient
+            Class that describes Ingredient
             </summary>
         </member>
         <member name="P:DataLibrary.Models.Ingredient.CaloriesAmount">
@@ -127,41 +144,22 @@
             </summary>
             <returns>A string that represents the current Ingredient.</returns>
         </member>
-        <member name="T:DataLibrary.Models.RyeProduct">
+        <member name="T:DataLibrary.Models.LoafBakeryProduct">
             <summary>
-            Class that describes RyeProduct
+            Class that describes WheatProduct
             </summary>
         </member>
-        <member name="M:DataLibrary.Models.RyeProduct.#ctor(System.Decimal)">
+        <member name="M:DataLibrary.Models.LoafBakeryProduct.#ctor">
             <summary>
             Constructor
             </summary>
         </member>
-        <member name="M:DataLibrary.Models.RyeProduct.#ctor(System.String,System.Decimal,DataLibrary.Models.Ingredient[])">
+        <member name="M:DataLibrary.Models.LoafBakeryProduct.#ctor(System.String,DataLibrary.Models.Ingredient[])">
             <summary>
             Constructor
             </summary>
-            <param name="name">Name of the RyeProduct</param>
-            <param name="markup">Markup of the RyeProduct</param>
-            <param name="ingredients">Ingredients which are requiered to bake the RyeProduct</param>
-        </member>
-        <member name="T:DataLibrary.Models.WheatProduct">
-            <summary>
-            Abstract class that describes WheatProduct
-            </summary>
-        </member>
-        <member name="M:DataLibrary.Models.WheatProduct.#ctor(System.Decimal)">
-            <summary>
-            Constructor
-            </summary>
-        </member>
-        <member name="M:DataLibrary.Models.WheatProduct.#ctor(System.String,System.Decimal,DataLibrary.Models.Ingredient[])">
-            <summary>
-            Constructor
-            </summary>
-            <param name="name">Name of the WheatProduct</param>
-            <param name="markup">Markup of the WheatProduct</param>
-            <param name="ingredients">Ingredients which are requiered to bake the WheatProduct</param>
+            <param name="name">Name of the LoafBakeryProduct</param>
+            <param name="ingredients">Ingredients which are requiered to bake the LoafBakeryProduct</param>
         </member>
     </members>
 </doc>

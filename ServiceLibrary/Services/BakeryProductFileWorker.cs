@@ -7,6 +7,7 @@ using System.Text;
 
 namespace ServiceLibrary.Services
 {
+
     /// <summary>
     /// Static class that allowes you to read/write BakeryProducts from/to file
     /// </summary>
@@ -26,7 +27,7 @@ namespace ServiceLibrary.Services
         public List<BakeryProduct> ReadFromFile(string filePath)
         {
             if (filePath is null) throw new ArgumentNullException("Variable filePath is null");
-            if (!File.Exists(filePath)) throw new FileNotFoundException($"File {filePath} not found");
+            if (!File.Exists(filePath)) throw new FileNotFoundException($"File \"{filePath}\" not found");
 
             List<BakeryProduct> products = new List<BakeryProduct>();
 
@@ -45,12 +46,12 @@ namespace ServiceLibrary.Services
 
                     product.Name = res[1];
 
-                    int n = res.Length;
+                    int n = res.Length - 1;
 
                     if ((n - 2) % 4 != 0) throw new FileLoadException("Wrong format of Ingredients for this product");
 
                     List<Ingredient> ingredients = new List<Ingredient>();
-                    for (int i = 2; i < n; i += 4)
+                    for (int i = 2; i < n - 1; i += 4)
                     {
                         Ingredient ingredient;
                         try
@@ -88,7 +89,7 @@ namespace ServiceLibrary.Services
         public void WriteToFile(string filePath, List<BakeryProduct> products)
         {
             if (filePath is null || products is null) throw new ArgumentNullException("Variable filePath is null");
-            if (!File.Exists(filePath)) throw new FileNotFoundException($"File {filePath} not found");
+            if (!File.Exists(filePath)) throw new FileNotFoundException($"File \"{filePath}\" not found");
 
 
             using (StreamWriter writer = new StreamWriter(filePath, true))
@@ -99,6 +100,8 @@ namespace ServiceLibrary.Services
 
                     if (product is LoafBakeryProduct) productString.Append("Loaf; ");
                     if (product is BreadBakeryProduct) productString.Append("Bread; ");
+
+                    productString.Append($"{product.Name}; ");
 
                     foreach (Ingredient ingredient in product.Ingredients)
                         productString.Append($"{ingredient.Name}; {ingredient.Weight}; {ingredient.Price}; {ingredient.CaloriesAmount}; ");
@@ -111,4 +114,5 @@ namespace ServiceLibrary.Services
         #endregion
 
     }
+
 }

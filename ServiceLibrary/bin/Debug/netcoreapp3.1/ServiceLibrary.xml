@@ -80,5 +80,22 @@
             <param name="product">comparable product</param>
             <returns>resulting list of products</returns>
         </member>
+        <member name="M:ServiceLibrary.Services.MainService.TakeWhereProductsWeightIsHigherThan(System.Collections.Generic.List{DataLibrary.Models.BakeryProduct},DataLibrary.Models.Ingredient,System.Double)">
+            <summary>
+            Takes products from list where comparable ingredient weight is higher than
+            </summary>
+            <param name="products">list where to take</param>
+            <param name="ingredient">comparable ingredient</param>
+            <param name="weight">comparable weight</param>
+            <returns>resulting list of products</returns>
+        </member>
+        <member name="M:ServiceLibrary.Services.MainService.TakeWhereIngredientCountIsHigherThan(System.Collections.Generic.List{DataLibrary.Models.BakeryProduct},System.Int32)">
+            <summary>
+            Takes products from list where ingredients count is higher than
+            </summary>
+            <param name="products">list where to take</param>
+            <param name="count">comparable count</param>
+            <returns>resulting list of products</returns>
+        </member>
     </members>
 </doc>

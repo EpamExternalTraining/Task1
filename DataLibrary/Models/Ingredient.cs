@@ -2,9 +2,9 @@
 {
 
     /// <summary>
-    /// Abstract class that describes Ingredient
+    /// Class that describes Ingredient
     /// </summary>
-    public abstract class Ingredient
+    public class Ingredient
     {
 
         #region Fields

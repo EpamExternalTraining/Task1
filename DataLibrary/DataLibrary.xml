@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:DataLibrary.BakeryProduct">
+            <summary>
+            Abstract class that describes BakeryProduct
+            </summary>
+        </member>
+        <member name="P:DataLibrary.BakeryProduct.Ingredients">
+            <summary>
+            Ingredients which are requiered to bake the BakeryProduct
+            </summary>
+        </member>
+        <member name="P:DataLibrary.BakeryProduct.Markup">
+            <summary>
+            Markup of the BakeryProduct; 
+            Indicated as a percentage
+            </summary>
+        </member>
+        <member name="P:DataLibrary.BakeryProduct.Name">
+            <summary>
+            Name of the BakeryProduct
+            </summary>
+        </member>
+        <member name="M:DataLibrary.BakeryProduct.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:DataLibrary.BakeryProduct.#ctor(System.String,System.Decimal,DataLibrary.Ingredient[])">
+            <summary>
+            Constructor
+            </summary>
+            <param name="markup">Markup of the BakeryProduct</param>
+            <param name="name">Name of the BakeryProduct</param>
+            <param name="ingredients">Ingredients which are requiered to bake the BakeryProduct</param>
+        </member>
+        <member name="M:DataLibrary.BakeryProduct.GetCaloriesAmount">
+            <summary>
+            Calculates and returns calories amount of the BakeryProduct
+            </summary>
+            <returns>Calories amount of the BakeryProduct</returns>
+        </member>
+        <member name="M:DataLibrary.BakeryProduct.GetPrice">
+            <summary>
+            Calculates and returns price of the BakeryProduct
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DataLibrary.BakeryProduct.Equals(System.Object)">
+            <summary>
+            Determines whether the specified BakeryProduct is equal to the current BakeryProduct.
+            </summary>
+            <param name="obj">The BakeryProduct to compare with the current BakeryProduct.</param>
+            <returns>true if the specified BakeryProduct is equal to the current BakeryProduct; otherwise, false.</returns>
+        </member>
+        <member name="M:DataLibrary.BakeryProduct.GetHashCode">
+            <summary>
+            Serves as the default hash function.
+            </summary>
+            <returns>A hash code for the current BakeryProduct.</returns>
+        </member>
+        <member name="M:DataLibrary.BakeryProduct.ToString">
+            <summary>
+            Returns a string that represents the current BakeryProduct.
+            </summary>
+            <returns>A string that represents the current BakeryProduct.</returns>
+        </member>
+        <member name="T:DataLibrary.Ingredient">
+            <summary>
+            Abstract class that describes Ingredient
+            </summary>
+        </member>
+        <member name="P:DataLibrary.Ingredient.CaloriesAmount">
+            <summary>
+            Calories amount of the Ingredient
+            </summary>
+        </member>
+        <member name="P:DataLibrary.Ingredient.Price">
+            <summary>
+            Price of the Ingredient
+            </summary>
+        </member>
+        <member name="P:DataLibrary.Ingredient.Weight">
+            <summary>
+            Weight of the Ingredient
+            </summary>
+        </member>
+        <member name="P:DataLibrary.Ingredient.Name">
+            <summary>
+            Name of the Ingredient
+            </summary>
+        </member>
+        <member name="M:DataLibrary.Ingredient.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:DataLibrary.Ingredient.#ctor(System.String,System.Double,System.Decimal,System.Double)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="caloriesAmount">Calories amount of the Ingredient</param>
+            <param name="price">Price of the Ingredient</param>
+            <param name="name">Name of the Ingredient</param>
+            <param name="weight">Weight of the Ingredient</param>
+        </member>
+        <member name="M:DataLibrary.Ingredient.Equals(System.Object)">
+            <summary>
+            Determines whether the specified Ingredient is equal to the current Ingredient.
+            </summary>
+            <param name="obj">The Ingredient to compare with the current Ingredient.</param>
+            <returns>true if the specified Ingredient is equal to the current Ingredient; otherwise, false.</returns>
+        </member>
+        <member name="M:DataLibrary.Ingredient.GetHashCode">
+            <summary>
+            Serves as the default hash function.
+            </summary>
+            <returns>A hash code for the current Ingredient.</returns>
+        </member>
+        <member name="M:DataLibrary.Ingredient.ToString">
+            <summary>
+            Returns a string that represents the current Ingredient.
+            </summary>
+            <returns>A string that represents the current Ingredient.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ServiceLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:ServiceLibrary.Interfaces.IProductFileWorker`1">
+            <summary>
+            Interface for reading/writing products to file
+            </summary>
+            <typeparam name="T">Product</typeparam>
+        </member>
+        <member name="M:ServiceLibrary.Interfaces.IProductFileWorker`1.ReadFromFile(System.String)">
+            <summary>
+            Read and returns List of Product from file
+            </summary>
+            <param name="filePath">File path</param>
+            <returns>List of BakeryProduct</returns>
+            <exception cref="T:System.ArgumentNullException"></exception>
+            <exception cref="T:System.IO.FileLoadException"></exception>
+            <exception cref="T:System.IO.FileNotFoundException"></exception>
+        </member>
+        <member name="M:ServiceLibrary.Interfaces.IProductFileWorker`1.WriteToFile(System.String,System.Collections.Generic.List{`0})">
+            <summary>
+            Write to file List of Product
+            </summary>
+            <param name="filePath">File path</param>
+            <param name="products">List of BakeryProduct for writing to file</param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+            <exception cref="T:System.IO.FileNotFoundException"></exception>
+        </member>
+        <member name="T:ServiceLibrary.Services.BakeryProductFileWorker">
+            <summary>
+            Static class that allowes you to read/write BakeryProducts from/to file
+            </summary>
+        </member>
+        <member name="M:ServiceLibrary.Services.BakeryProductFileWorker.ReadFromFile(System.String)">
+            <summary>
+            Read and returns List of BakeryProduct from file
+            </summary>
+            <param name="filePath">File path</param>
+            <returns>List of BakeryProduct</returns>
+            <exception cref="T:System.ArgumentNullException"></exception>
+            <exception cref="T:System.IO.FileLoadException"></exception>
+            <exception cref="T:System.IO.FileNotFoundException"></exception>
+        </member>
+        <member name="M:ServiceLibrary.Services.BakeryProductFileWorker.WriteToFile(System.String,System.Collections.Generic.List{DataLibrary.Models.BakeryProduct})">
+            <summary>
+            Write to file List of BakeryProduct
+            </summary>
+            <param name="filePath">File path</param>
+            <param name="products">List of BakeryProduct for writing to file</param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+            <exception cref="T:System.IO.FileNotFoundException"></exception>
+        </member>
+    </members>
+</doc>

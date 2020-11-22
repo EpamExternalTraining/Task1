@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DataLibrary\DataLibrary.csproj" />
+    <ProjectReference Include="..\ServiceLibrary\ServiceLibrary.csproj" />
   </ItemGroup>
 
 </Project>

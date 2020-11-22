@@ -1,0 +1,14 @@
+E:\Projects\EpamExternalTraining\Task1\ServiceLibrary\bin\Debug\netcoreapp3.1\ServiceLibrary.deps.json
+E:\Projects\EpamExternalTraining\Task1\ServiceLibrary\bin\Debug\netcoreapp3.1\ServiceLibrary.dll
+E:\Projects\EpamExternalTraining\Task1\ServiceLibrary\bin\Debug\netcoreapp3.1\ServiceLibrary.pdb
+E:\Projects\EpamExternalTraining\Task1\ServiceLibrary\bin\Debug\netcoreapp3.1\ServiceLibrary.xml
+E:\Projects\EpamExternalTraining\Task1\ServiceLibrary\bin\Debug\netcoreapp3.1\DataLibrary.dll
+E:\Projects\EpamExternalTraining\Task1\ServiceLibrary\bin\Debug\netcoreapp3.1\DataLibrary.pdb
+E:\Projects\EpamExternalTraining\Task1\ServiceLibrary\bin\Debug\netcoreapp3.1\DataLibrary.xml
+E:\Projects\EpamExternalTraining\Task1\ServiceLibrary\obj\Debug\netcoreapp3.1\ServiceLibrary.csprojAssemblyReference.cache
+E:\Projects\EpamExternalTraining\Task1\ServiceLibrary\obj\Debug\netcoreapp3.1\ServiceLibrary.AssemblyInfoInputs.cache
+E:\Projects\EpamExternalTraining\Task1\ServiceLibrary\obj\Debug\netcoreapp3.1\ServiceLibrary.AssemblyInfo.cs
+E:\Projects\EpamExternalTraining\Task1\ServiceLibrary\obj\Debug\netcoreapp3.1\ServiceLibrary.csproj.CoreCompileInputs.cache
+E:\Projects\EpamExternalTraining\Task1\ServiceLibrary\obj\Debug\netcoreapp3.1\ServiceLibrary.csproj.CopyComplete
+E:\Projects\EpamExternalTraining\Task1\ServiceLibrary\obj\Debug\netcoreapp3.1\ServiceLibrary.dll
+E:\Projects\EpamExternalTraining\Task1\ServiceLibrary\obj\Debug\netcoreapp3.1\ServiceLibrary.pdb
